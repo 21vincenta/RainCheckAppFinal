@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_main">#E3F2FD</color>
+    <color name="background_forecast">#E1F5FE</color>
+    <color name="background_settings">#F3F6FB</color>
+    <color name="card_umbrella">#448AFF</color>
+    <color name="card_shoe">#7C4DFF</color>
+    <color name="card_current_weather">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+</resources> 

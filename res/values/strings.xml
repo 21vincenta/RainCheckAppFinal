@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RainCheck</string>
+    <string name="umbrella_check">Umbrella Check</string>
+    <string name="shoe_check">Shoe Check</string>
+    <string name="yes_bring_umbrella">Yes, bring an umbrella</string>
+    <string name="no_umbrella_needed">No, you're fine</string>
+    <string name="wear_waterproof_shoes">Wear waterproof shoes</string>
+    <string name="regular_shoes_fine">Regular shoes are fine</string>
+    <string name="rain_starts_in">Rain starts in %1$d hours</string>
+    <string name="wet_conditions_expected">Wet conditions expected</string>
+    <string name="humidity">Humidity</string>
+    <string name="feels_like">Feels like</string>
+    <string name="auto_detect_location">Auto-detect location</string>
+    <string name="default_city">Default City</string>
+    <string name="rain_alerts">Rain alerts</string>
+    <string name="daily_weather_summary">Daily weather summary</string>
+    <string name="notification_time">Notification time</string>
+</resources> 

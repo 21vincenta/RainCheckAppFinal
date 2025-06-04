@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_main">
+    <!-- City Search Bar -->
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter city name"
+        android:drawableStart="@drawable/ic_search"
+        android:background="@drawable/bg_search_bar"/>
+    <!-- Current Weather Card -->
+    <include layout="@layout/item_current_weather" />
+    <!-- Umbrella Check Card -->
+    <include layout="@layout/item_umbrella_check" />
+    <!-- Shoe Check Card -->
+    <include layout="@layout/item_shoe_check" />
+</LinearLayout> 

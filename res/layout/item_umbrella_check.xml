@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_umbrella_check">
+    <TextView
+        android:id="@+id/textViewUmbrellaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Umbrella Check"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:id="@+id/textViewUmbrellaAdvice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes, bring an umbrella"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textViewRainStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rain starts in 2 hours"/>
+</LinearLayout> 

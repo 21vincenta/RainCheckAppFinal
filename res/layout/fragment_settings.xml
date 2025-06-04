@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_settings">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <!-- Temperature Units -->
+        <RadioGroup
+            android:id="@+id/radioGroupUnits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radioCelsius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Celsius (°C)"/>
+            <RadioButton
+                android:id="@+id/radioFahrenheit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fahrenheit (°F)"/>
+        </RadioGroup>
+        <!-- Location -->
+        <Switch
+            android:id="@+id/switchAutoLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Auto-detect location"/>
+        <EditText
+            android:id="@+id/editTextDefaultCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Default City"/>
+        <!-- Notifications -->
+        <Switch
+            android:id="@+id/switchRainAlerts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rain alerts"/>
+        <Switch
+            android:id="@+id/switchDailySummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily weather summary"/>
+        <TimePicker
+            android:id="@+id/timePickerNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"/>
+    </LinearLayout>
+</ScrollView> 

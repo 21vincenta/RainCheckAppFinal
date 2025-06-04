@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/card_umbrella</item>
+        <item name="colorPrimaryDark">@color/card_shoe</item>
+        <item name="colorAccent">@color/card_umbrella</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:windowBackground">@color/background_main</item>
+    </style>
+</resources> 
